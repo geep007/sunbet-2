@@ -1654,9 +1654,9 @@ function SimlBedeClient(e) {
     (this.turfsportLobby = function (e) {
       var t = r.config.bede_site_code,
         n =
-          $('#global_config_attributes').data('turfsport_baseurl') +
+          r.config.sunbet_rt_baseurl +
           '/sessionToken',
-        i = $('#global_config_attributes').data('turfsport_server');
+        i = r.config.turfsport_server;
       b(t, 'GET', n, '', !1, !0, function (t, n) {
         if (t) return e(t);
         var r = JSON.parse(n);
