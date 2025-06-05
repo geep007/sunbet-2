@@ -1651,6 +1651,7 @@ function SimlBedeClient(e) {
         }
       );
     }),
+    //adding new function for turfsport lobby
     (this.turfsportLobby = function (e) {
       var t = r.config.bede_site_code,
         n =
